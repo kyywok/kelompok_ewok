@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+Route::get('/home', function () {
+    return view('home');
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front');
 });
