@@ -14,4 +14,8 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <h3 style="color: white" align>Selamat anda telah login</h3>
+    </div>
 </x-app-layout>
